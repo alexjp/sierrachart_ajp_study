@@ -1,0 +1,63 @@
+#ifndef SC_AUTOSWING_PA_H
+#define SC_AUTOSWING_PA_H
+
+#include <windows.h>
+#include <sierrachart.h>
+#include "main.h"
+#include "lib.h"
+
+//#define _CONST_DEBUG 0;
+
+
+int const _AUTO_SWING_PA_SG_BEGIN_EDGE_PRICE = 0;
+int const _AUTO_SWING_PA_SG_END_EDGE_PRICE = 1;
+int const _AUTO_SWING_PA_SG_PREVIOUS_EDGE_PRICE = 2;
+int const _AUTO_SWING_PA_SG_BEGIN_EDGE_INDEX = 11;
+int const _AUTO_SWING_PA_SG_END_EDGE_INDEX = 12;
+int const _AUTO_SWING_PA_SG_PREVIOUS_EDGE_INDEX = 13;
+int const _AUTO_SWING_PA_SG_MIN_RET = 3;
+int const _AUTO_SWING_PA_SG_MIN_ACHEIVED = 6;
+int const _AUTO_SWING_PA_SG_STOP = 7;
+int const _AUTO_SWING_PA_SG_LIMIT = 8;
+//int const _AUTO_SWING_PA_SG_NEW_BEGIN = 9;
+//int const _AUTO_SWING_PA_SG_NEW_END = 15;
+int const _AUTO_SWING_PA_SG_DIRECTION = 10;
+
+int const _AUTO_SWING_PA_I_ATR = 0;
+//int const _AUTO_SWING_PA_I_NEW_SWING_EXT = 1;
+int const _AUTO_SWING_PA_I_ATR_MULT_STOP = 2;
+int const _AUTO_SWING_PA_I_TICK_OFFSET = 3;
+int const _AUTO_SWING_PA_I_MIN_CANDLES_AFTER_BREAKOUT = 4;
+int const _AUTO_SWING_PA_I_MAX_DISTANCE = 7;
+int const _AUTO_SWING_PA_I_DATE_TIME_START = 8;
+int const _AUTO_SWING_PA_I_DATE_TIME_END = 9;
+int const _AUTO_SWING_PA_I_REPAINT = 10;
+int const _AUTO_SWING_PA_I_ATR_MULT = 14;
+int const _AUTO_SWING_PA_I_USE_EXT_ATR = 21;
+int const _AUTO_SWING_PA_I_STUDY_NAME = 15;
+
+
+int const _AUTO_SWING_PA_I_BUTTON_ON = 30;
+int const _AUTO_SWING_PA_I_BUTTON_OFF = 31;
+int const _AUTO_SWING_PA_I_ALERT = 32;
+
+int const _AUTO_SWING_PA_P_STATE_ACS_BUTTON = 0;
+int const _AUTO_SWING_PA_P_STATE_MOUSE_START = 1;
+int const _AUTO_SWING_PA_P_STATE_MOUSE_END = 2;
+int const _AUTO_SWING_PA_P_STATE_AUTO_MANUAL = 3;
+
+int const _AUTO_SWING_PA_P_BEGIN_EDGE_INDEX = 5;
+int const _AUTO_SWING_PA_P_END_EDGE_INDEX = 6;
+int const _AUTO_SWING_PA_P_PREVIOUS_EDGE_INDEX = 7;
+
+int const _AUTO_SWING_PA_P_VWAP = 8;
+//int const _AUTO_SWING_PA_P_NEW_MAX_EDGE_INDEX = 9;
+
+int const _AUTO_SWING_PA_P_LAST_INDEX_LOOPED = 13;
+int const _AUTO_SWING_PA_P_DIRECTION = 24;
+int const _AUTO_SWING_PA_P_SWING_ACTIVE = 25;
+//int const _AUTO_SWING_PA_P_NEW_BEGIN_INDEX_REPAINT = 26;
+//int const _AUTO_SWING_PA_P_NEW_REVERSAL_BEGIN_INDEX_REPAINT = 27;
+
+
+#endif // SC_AUTOSWING_PA_H

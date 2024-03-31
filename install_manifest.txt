@@ -1,0 +1,4 @@
+/home/alex/.amp/ajp_study_64.dll
+/home/alex/.dd/ajp_study_64.dll
+/home/alex/.lmax/ajp_study_64.dll
+/home/alex/.fxcm/ajp_study_64.dll
